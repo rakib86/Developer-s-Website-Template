@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.main {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    margin: 2%  auto;
+    border-radius: 80px;
+    background-color: #bfd6c8;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #445457;
+    
+}
+
+.left img {
+    width: 30%;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    margin: 5% auto;
+}
+
+.left img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    border-radius: 35%;
+}
+
+.left .name {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.left .intro {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 10%;
+    text-align: center;
+}
+
+
+
+
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8% 0;
+}
+
+
+
+
+
+    
+
+    a.social-box {
+        display: flex;
+        align-items: center;
+        height: auto;
+        width: 70%;
+        background-color: #e8f5f7;
+        border-radius: 100px;
+        justify-content: space-between;
+        padding: 3% 5%;
+        transition: all 0.5s ease-in-out;
+        text-decoration: none; /* Add this line to remove the default underline */
+    }
+    
+    a.social-box div {
+        display: flex;
+        align-items: center;
+    }
+    
+    a.social-box span {
+        color: #445457;
+        text-decoration: none;
+        font-size: 34px;
+        margin-right: 10px; /* Add some spacing between the text and the icon */
+    }
+    
+    a.social-box i {
+        transition: all 0.5s ease-in-out;
+        font-size: 30px; 
+        color: #333; 
+    }
+    
+    a.social-box:hover {
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+    }
+    
+    a.social-box:hover i {
+        color: #bfd6c8;
+        transition: all 0.5s ease-in-out;
+        background-color: black;
+        padding: 20px;
+        border-radius: 30%;
+    }
+    
+
+
+
+
+    @media screen and (max-width: 768px) {
+        .main {
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            border-radius: 0;
+        }
+        
+        .left {
+            width: 100%;
+            height: 50%;
+            border-radius: 0;
+        }
+        
+        .left img {
+            width: 40%;
+            border-radius: 50%;
+            transition: all 0.5s ease-in-out;
+            margin: 5% auto;
+        }
+        
+        .left .name {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+        .left .intro {
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 0 10%;
+            text-align: center;
+        }
+        
+        .right {
+            width: 80%;
+            border-radius: 0;
+           
+
+        }
+        
+        .right .social-box {
+            width: 100%;
+            height: 20%;
+            margin: 2% 0;
+        }
+        
+        .right .social-box a {
+            width: 100%;
+            height: 100%;
+        }
+
+        a.social-box span {
+           font-size: 20px;
+           
+        }
+        
+        .right .social-box a i {
+            font-size: 30px;
+        }
+    }

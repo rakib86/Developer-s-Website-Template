@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/54e59b90fa.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+
+    <script>
+                // Developer information here - Edit this section
+                var developerName = "Rakibur Rahaman"; // Your name
+
+                var developerIntro = "A pro developers and a Playboy magazine acotor";  // Your introduction
+
+                var githubURL = "http://github.com"; // Your github profile link
+
+                var linkedinURL = "http://linkedin.com"; // Your linkedin profile link
+
+                var codeforceURL = "http://codeforces.com"; // Your codeforce profile link
+
+                var facebookURL = "http://facebook.com"; //Your facebook profile link
+
+                var emailURL = "mailto:" + "example@gmail.com"; // Your Email Address
+
+                //End of developer information, do not edit below this line
+    </script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <img src="profile-photo.jpg" alt="" srcset="">
+            <p class="name" id="developerName"></p>
+            <p class="intro" id="developerIntro"></p>
+        </div>
+        <div class="right">
+            <a href="#" onclick="openLink(githubURL)" class="social-box">
+                <div>
+                    <span>Github</span>
+                </div>
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#" onclick="openLink(linkedinURL)" class="social-box">
+                <div>
+                    <span>LinkedIn</span>
+                </div>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="#" onclick="openLink(codeforceURL)" class="social-box">
+                <div>
+                    <span>Codeforce</span>
+                </div>
+                <i class="fa-solid fa-code"></i>
+
+            </a>
+
+            <a href="#" onclick="openLink(facebookURL)" class="social-box">
+                <div>
+                    <span>Facebook</span>
+                </div>
+                <i class="fa-brands fa-facebook"></i>
+
+            </a>
+
+            <a href="#" onclick="openLink(emailURL)" class="social-box">
+                <div>
+                    <span>Email</span>
+                </div>
+                <i class="fa-solid fa-envelope"></i>
+
+            </a>
+        </div>
+    </div>
+
+    <script>
+       
+        document.title = developerName;
+        document.getElementById("developerName").innerText = developerName;
+        document.getElementById("developerIntro").innerText = developerIntro;
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+
+ 
+</body>
+
+</html>
