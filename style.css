@@ -38,11 +38,16 @@ body {
     margin: 5% auto;
 }
 
+
+
 .left img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
     border-radius: 35%;
 }
+
+
+
 
 .left .name {
     font-size: 3rem;

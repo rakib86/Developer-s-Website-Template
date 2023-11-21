@@ -1,0 +1,12 @@
+{
+    "developerName": "Rakibur Rahaman",
+    "developerIntro": "A pro developers and a Playboy magazine actor",
+    "githubURL": "http://github.com/rakib86",
+    "linkedinURL": "http://linkedin.com",
+    "codeforceURL": "http://codeforces.com",
+    "facebookURL": "http://facebook.com/rakib.cs",
+    "emailURL": "rakiburrahaman@gmail.com"
+}
+
+
+
